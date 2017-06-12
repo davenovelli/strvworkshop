@@ -1,0 +1,9 @@
+Docker run instructions:
+----------------------
+- https://stackoverflow.com/questions/38830610/access-jupyter-notebook-running-on-docker-container
+
+Create a new container and log into it, run jupyter using 0.0.0.0 instead of localhost, login from host machine (your own browser)
+
+In Docker    :> docker run -it -p 8888:8888 strvworkshop:latest
+In Container :> jupyter notebook --ip 0.0.0.0 --no-browser
+In Host      : Navigate to: http://0.0.0.0:8888/tree‌​?[akjhvoifuakjn9384ytuwv9284h9uvh9h2] *** Whatever the token is
