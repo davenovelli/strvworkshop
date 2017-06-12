@@ -1,2 +1,5 @@
 .idea/
 .ipynb_checkpoints/
+lightfm/
+strv-logo.png
+data/surgeapp_swipes.raw.csv
