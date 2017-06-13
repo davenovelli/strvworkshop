@@ -1,5 +1,6 @@
+.git
 lightfm
 .DS_Store
 .idea
-.ipynb_checkpoints
+notebooks/.ipynb_checkpoints
 .lightfm
